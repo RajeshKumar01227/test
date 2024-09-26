@@ -29,7 +29,11 @@ import matplotlib.pyplot as pt
 df=p.read_csv("physics.csv")
 x=df.iloc[9:19].iloc[:,1]
 y=df.iloc[9:19].iloc[:,2]
+<<<<<<< HEAD
 #print(x,y)
+=======
+print(x,y)
+>>>>>>> 4a8e51b0b28f8fde3b0ece376dbdb816d9eafaaf
 pt.bar(x,y)
 pt.show()
 
