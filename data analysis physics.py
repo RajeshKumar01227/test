@@ -27,8 +27,8 @@ import pandas as p
 import matplotlib.pyplot as pt
 
 df=p.read_csv("physics.csv")
-x=df.iloc[8:19].iloc[:,1]
-y=df.iloc[8:19].iloc[:,2]
+x=df.iloc[9:19].iloc[:,1]
+y=df.iloc[9:19].iloc[:,2]
 print(x,y)
 pt.bar(x,y)
 pt.show()
